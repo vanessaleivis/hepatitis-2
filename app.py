@@ -4,7 +4,7 @@ from models.prediccion import predecir_paciente
 
 
 model_rl = load("models/modelo_regresion_logistica_1.pkl")
-scaler = load(r"models\scaler.pkl")
+scaler = load("models/scaler.pkl")
 
 app = Flask(__name__)
 
