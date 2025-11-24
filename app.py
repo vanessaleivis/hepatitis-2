@@ -3,8 +3,7 @@ from joblib import load
 from models.prediccion import predecir_paciente
 
 
-
-model_rl = load(r"models\modelo_regresion_logistica (1).pkl")
+model_rl = load("models/modelo_regresion_logistica_1.pkl")
 scaler = load(r"models\scaler.pkl")
 
 app = Flask(__name__)
